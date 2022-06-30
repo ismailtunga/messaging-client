@@ -1,5 +1,5 @@
 {
-  "name": "@Quby/messaging-client",
+  "name": "messaging-client",
   "version": "1.1.8",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -7,7 +7,7 @@
   "license": "AGPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:quby/messaging.git"
+    "url": "git@github.com:ismailtunga/messaging-client.git"
   },
   "description": "An http client to interact with the quby Messaging Server",
   "keywords": [
@@ -41,7 +41,7 @@
     "uuid": "^8.3.2"
   },
   "dependencies": {
-    "@quby/messaging-base": "1.1.1",
+    "messaging-base": "1.0.0",
     "axios": "^0.21.4",
     "cookie": "^0.4.2",
     "joi": "^17.6.0"
