@@ -1,14 +1,10 @@
 {
-  "name": "messaging-client",
+  "name": "quby-messaging-client",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "source": "src/index.ts",
   "license": "AGPL-3.0",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:ismailtunga/messaging-client.git"
-  },
   "description": "An http client to interact with the quby Messaging Server",
   "keywords": [
     "quby",
@@ -26,8 +22,7 @@
   "homepage": "https://quby.com/docs",
   "scripts": {
     "build": "yarn && yarn run -T tsc --build",
-    "watch": "yarn && yarn run -T tsc --build --watch",
-    "prepublish": "yarn run -T rimraf dist && yarn --immutable && yarn run -T tsc --build && yarn run -T rimraf dist/.tsbuildinfo"
+    "watch": "yarn && yarn run -T tsc --build --watch"
   },
   "files": [
     "dist"
